@@ -2,7 +2,7 @@ import React from 'react';
 import './Contacts.sass';
 
 const Contacts = () => {
-  return <div></div>;
+  return <section id="contacts"></section>;
 };
 
 export default Contacts;
