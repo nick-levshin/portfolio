@@ -44,7 +44,7 @@ const Services = () => {
 
           <ul className="service__list">
             {designItems.map((item) => (
-              <li>
+              <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>
               </li>
@@ -59,7 +59,7 @@ const Services = () => {
 
           <ul className="service__list">
             {developmentItems.map((item) => (
-              <li>
+              <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>
               </li>
@@ -74,7 +74,7 @@ const Services = () => {
 
           <ul className="service__list">
             {contentItems.map((item) => (
-              <li>
+              <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>
               </li>
