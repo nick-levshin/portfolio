@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://portfolio-nine-nu-72.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
