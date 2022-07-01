@@ -3,32 +3,32 @@ import './Services.sass';
 import { BiCheck } from 'react-icons/bi';
 
 const Services = () => {
-  const designItems = [
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
+  const backendItems = [
+    'Service architecture design.',
+    'Development of the platform and core functionality.',
+    'Integration with external services.',
+    'Testing and debugging the application.',
+    'Ensuring information security.',
+    'Analyzing data to identify possible improvements.',
   ];
 
-  const developmentItems = [
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
+  const frontendItems = [
+    'Adaptive and cross-browser website layout.',
+    'Setting up functionality and writing scripts.',
+    'Designing UI and creating interfaces from scratch.',
+    'Refactoring and speeding up sites/applications.',
+    'Сhecking and testing functionality.',
+    'Development of React components.',
+    'Active interaction with backend developers.',
   ];
 
-  const contentItems = [
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
-    'Lorem ipsum dolor sit amet consectetur elit.',
+  const otherItems = [
+    'Experience with webpack/gulp setup.',
+    'Working with the git version control system.',
+    'OOP knowledge.',
+    'Experience with git, ssh in the console of Linux systems.',
+    'Ability to work independently and in a team.',
+    'Ability to work with npm/yarn.',
   ];
 
   return (
@@ -39,11 +39,11 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Backend Development</h3>
           </div>
 
           <ul className="service__list">
-            {designItems.map((item) => (
+            {backendItems.map((item) => (
               <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>
@@ -54,11 +54,11 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Frontend Development</h3>
           </div>
 
           <ul className="service__list">
-            {developmentItems.map((item) => (
+            {frontendItems.map((item) => (
               <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>
@@ -69,11 +69,11 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Other Skills</h3>
           </div>
 
           <ul className="service__list">
-            {contentItems.map((item) => (
+            {otherItems.map((item) => (
               <li key={item}>
                 <BiCheck className="service__list-icon" />
                 <p>{item}</p>

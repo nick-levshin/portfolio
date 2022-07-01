@@ -4,47 +4,59 @@ import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
+import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.jpg';
+import IMG7 from '../../assets/portfolio7.jpg';
+import IMG8 from '../../assets/portfolio8.jpg';
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio = () => {
   const portfolioItems = [
     {
       image: IMG1,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'Virtual Keyboard Emulator. Pure JS',
+      github: 'https://github.com/nick-levshin/VirtualKeyboard/tree/keyboard',
+      demo: 'https://nick-levshin.github.io/VirtualKeyboard/src/',
     },
     {
       image: IMG2,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'React-TypeScript Chess Game',
+      github: 'https://github.com/nick-levshin/Chess/tree/chess',
+      demo: 'https://nick-levshin.github.io/Chess',
     },
     {
       image: IMG3,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'Displaying Data As A Graph. Pure JS',
+      github: 'https://github.com/nick-levshin/TG-Graph',
+      demo: 'https://tg-graph-o84erc900-nick-levshin.vercel.app',
     },
     {
       image: IMG4,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'Single Page Travel Agency Website',
+      github: 'https://github.com/nick-levshin/Safari',
+      demo: 'https://nick-levshin.github.io/Safari',
     },
     {
       image: IMG5,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'Single Page Swedish Bitter Website',
+      github: 'https://github.com/nick-levshin/SwedishBitter',
+      demo: 'https://nick-levshin.github.io/SwedishBitter',
     },
     {
       image: IMG6,
-      title: 'Crypto Currency Dashboard & Financial Visualization',
-      github: 'https://github.com',
-      demo: 'https://github.com',
+      title: 'Single Page Surf Company Website',
+      github: 'https://github.com/nick-levshin/GoSurf',
+      demo: 'https://nick-levshin.github.io/GoSurf/app',
+    },
+    {
+      image: IMG7,
+      title: 'Full Stack Cloud Storage Application',
+      github: 'https://github.com/nick-levshin/Cloud-Storage',
+    },
+    {
+      image: IMG8,
+      title: 'Medical Order Control System',
+      github: 'https://github.com/nick-levshin/Medicine',
     },
   ];
 

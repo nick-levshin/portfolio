@@ -13,7 +13,7 @@ const Experience = () => {
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'CSS',
-      level: 'Intermediate',
+      level: 'Experienced',
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
@@ -22,18 +22,18 @@ const Experience = () => {
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
-      technology: 'Bootstrap',
-      level: 'Experienced',
-    },
-    {
-      icon: <BsPatchCheckFill className="experience__details-icon" />,
-      technology: 'Tailwind',
-      level: 'Experienced',
-    },
-    {
-      icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'React',
-      level: 'Experienced',
+      level: 'Intermediate',
+    },
+    {
+      icon: <BsPatchCheckFill className="experience__details-icon" />,
+      technology: 'Redux',
+      level: 'Intermediate',
+    },
+    {
+      icon: <BsPatchCheckFill className="experience__details-icon" />,
+      technology: 'TypeScript',
+      level: 'Beginner',
     },
   ];
 
@@ -41,27 +41,32 @@ const Experience = () => {
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'Node JS',
-      level: 'Experienced',
+      level: 'Intermediate',
+    },
+    {
+      icon: <BsPatchCheckFill className="experience__details-icon" />,
+      technology: 'Express',
+      level: 'Intermediate',
+    },
+    {
+      icon: <BsPatchCheckFill className="experience__details-icon" />,
+      technology: 'Postgres',
+      level: 'Intermediate',
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'MongoDB',
-      level: 'Intermediate',
+      level: 'Beginner',
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
-      technology: 'PHP',
-      level: 'Intermediate',
-    },
-    {
-      icon: <BsPatchCheckFill className="experience__details-icon" />,
-      technology: 'MySQL',
-      level: 'Experienced',
+      technology: 'Nest JS',
+      level: 'Beginner',
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'Python',
-      level: 'Experienced',
+      level: 'Intermediate',
     },
   ];
 

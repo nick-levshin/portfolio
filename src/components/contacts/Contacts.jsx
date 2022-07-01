@@ -28,7 +28,7 @@ const Contacts = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <artictle className="contact__option">
+          <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>nikita.levshin2016@gmail.com</h5>
@@ -39,23 +39,23 @@ const Contacts = () => {
             >
               Send a message
             </a>
-          </artictle>
-          <artictle className="contact__option">
+          </article>
+          <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>n_levshin</h5>
             <a href="https://vk.me/n_levshin" rel="noreferrer" target="_blank">
               Send a message
             </a>
-          </artictle>
-          <artictle className="contact__option">
+          </article>
+          <article className="contact__option">
             <FaTelegramPlane className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>+380 71 467 94 59</h5>
             <a href="https://t.me/n_levshin" rel="noreferrer" target="_blank">
               Send a message
             </a>
-          </artictle>
+          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

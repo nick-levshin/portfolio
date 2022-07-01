@@ -22,25 +22,25 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Year Learning Experience</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>4 Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-            rerum! Explicabo culpa, minus id voluptatem adipisci dolorem
-            quisquam libero sit ut similique repudiandae alias corrupti
-            recusandae dolore, error sint a.
+            I study at the Donetsk National Technical University with a degree
+            in software engineering. Passed the JS / FRONT-END course from the
+            Rolling Scopes School. I've been learning React and Redux for over a
+            year. You can see my projects in my Github.
           </p>
 
           <a href="#contacts" className="btn btn-primary">
