@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.jpg';
 import IMG7 from '../../assets/portfolio7.jpg';
 import IMG8 from '../../assets/portfolio8.jpg';
+import IMG9 from '../../assets/portfolio9.jpg';
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio = () => {
@@ -57,6 +58,12 @@ const Portfolio = () => {
       image: IMG8,
       title: 'Medical Order Control System',
       github: 'https://github.com/nick-levshin/Medicine',
+    },
+    {
+      image: IMG9,
+      title: 'Shoppy - React/Tailwind Dashboard',
+      github: 'https://github.com/nick-levshin/Dashboard',
+      demo: 'https://dashboard-r7pvramcl-nick-levshin.vercel.app/',
     },
   ];
 
