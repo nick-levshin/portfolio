@@ -9,6 +9,7 @@ import IMG6 from '../../assets/portfolio6.jpg';
 import IMG7 from '../../assets/portfolio7.jpg';
 import IMG8 from '../../assets/portfolio8.jpg';
 import IMG9 from '../../assets/portfolio9.jpg';
+import IMG10 from '../../assets/portfolio10.jpg';
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio = () => {
@@ -64,6 +65,12 @@ const Portfolio = () => {
       title: 'Shoppy - React/Tailwind Dashboard',
       github: 'https://github.com/nick-levshin/Dashboard',
       demo: 'https://dashboard-r7pvramcl-nick-levshin.vercel.app/',
+    },
+    {
+      image: IMG10,
+      title: 'Paint Online - React/NodeJS/WebSockets',
+      github: 'https://github.com/nick-levshin/Paint',
+      demo: 'https://paint-psi.vercel.app/',
     },
   ];
 
