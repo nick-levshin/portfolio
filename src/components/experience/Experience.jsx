@@ -32,6 +32,11 @@ const Experience = () => {
     },
     {
       icon: <BsPatchCheckFill className="experience__details-icon" />,
+      technology: 'Next JS',
+      level: 'Intermediate',
+    },
+    {
+      icon: <BsPatchCheckFill className="experience__details-icon" />,
       technology: 'TypeScript',
       level: 'Beginner',
     },

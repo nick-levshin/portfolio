@@ -11,6 +11,8 @@ import IMG8 from '../../assets/portfolio8.jpg';
 import IMG9 from '../../assets/portfolio9.jpg';
 import IMG10 from '../../assets/portfolio10.jpg';
 import IMG11 from '../../assets/portfolio11.jpg';
+import IMG12 from '../../assets/portfolio12.jpg';
+// import IMG13 from '../../assets/portfolio13.jpg';
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio = () => {
@@ -79,6 +81,18 @@ const Portfolio = () => {
       github: 'https://github.com/nick-levshin/Lyriks',
       demo: 'https://lyriks-eta.vercel.app/',
     },
+    {
+      image: IMG12,
+      title: 'WhatToWatch - Next/Typescript/KinopoiskAPI Movie Service',
+      github: 'https://github.com/nick-levshin/what-to-watch-web',
+      demo: 'https://what-to-watch-web-nick-levshin.vercel.app/',
+    },
+    // {
+    //   image: IMG13,
+    //   title: 'Promptopia - Next/Typescript/RedisDB Realtime Chat',
+    //   github: 'https://github.com/nick-levshin/realtime-chat',
+    //   demo: 'https://lyriks-eta.vercel.app/',
+    // },
   ];
 
   return (
